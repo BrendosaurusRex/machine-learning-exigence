@@ -7,3 +7,8 @@ __pycache__/
 
 # Data
 *.csv
+test/
+train/
+test_dl/
+train_dl/
+*.zip
