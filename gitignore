@@ -1,0 +1,228 @@
+Last login: Sun Aug  9 18:50:19 on ttys000
+alec@adsl-99-91-15-225 ~ % cd Desktop/PYTHON/machine-learning-exigence 
+alec@adsl-99-91-15-225 machine-learning-exigence % git commit -m "initial commit for alec gitignore file"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+alec@adsl-99-91-15-225 machine-learning-exigence % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+alec@adsl-99-91-15-225 machine-learning-exigence % git add gitignore
+fatal: pathspec 'gitignore' did not match any files
+alec@adsl-99-91-15-225 machine-learning-exigence % cd ..
+alec@adsl-99-91-15-225 PYTHON % mv gitignore
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+alec@adsl-99-91-15-225 PYTHON % mv gitignore -v machine-learning-exigence 
+mv: rename -v to machine-learning-exigence/-v: No such file or directory
+alec@adsl-99-91-15-225 PYTHON % mv gitignore machine-learning-exigence 
+mv: gitignore: No such file or directory
+alec@adsl-99-91-15-225 PYTHON % mv gitignore machine-learning-exigence/-v
+mv: rename gitignore to machine-learning-exigence/-v: No such file or directory
+alec@adsl-99-91-15-225 PYTHON % ls
+Bash Command Line Terms.docx		machine-learning-exigence
+Convolutional Neural Network.pptx	~$Convolutional Neural Network.pptx
+Pet_Images				~$sh Command Line Terms.docx
+Untitled.ipynb
+alec@adsl-99-91-15-225 PYTHON % cat Untitled.ipynb
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,\n",
+       "       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,\n",
+       "       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,\n",
+       "       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,\n",
+       "       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,\n",
+       "       0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "np.zeros(100)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import matplotlib as plt\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
+alec@adsl-99-91-15-225 PYTHON % cd ..
+alec@adsl-99-91-15-225 Desktop % ls          
+02.14.2020 EPO ELISA Assay.pdf
+1-s2.0-S1550413116304259-main.pdf
+1-s2.0-S1550413117306708-main.pdf
+1st Finger Exerciese.pdf
+244467_0_unknown_upload_6329092_qb8t4b_sc.pdf
+3rd & 4th Finger Exercises.pdf
+A-genetically-encoded-tool-for-manipulation-of-nadpnadph-in-living-cells-NatChemBio-2017.pdf
+ART
+Account Infos.xlsx
+Accounting Codes - 127084367 - Draft Requisition_files
+Accounting Codes - 130566156 - Draft Requisition.pdf
+Accounting Codes - 132290268 - Draft Requisition.pdf
+BACKGROUND PIX
+BACKGROUND PIX.zip
+BOOKS
+Boarding Pass - FCKFAJ - LGB-SFO.pdf
+Boarding Pass - FCKFAJ - SFO-LGB.pdf
+CBLZ030920-9H-mAb.pdf
+CCCApplicationReview-CityCollegeofSanFran.pdf
+Career paths .pptx
+Career paths.pages
+Career paths.pptx
+Cart - Draft Requisition.pdf
+Cell-Specific Neuropharmacology.pdf
+Complementation-of-mitochondrial-electron-transport-chain-by-manipulation-of-the-NADNADH-ratio-Titov-Science-2016.pdf
+Final High School Transcripts .pdf
+Final UCSB Unofficial Transcript .pdf
+Folic Acid Background.pptx
+Folic acid induces cell type-specific changes in the transcriptome of breast cancer cell lines- a proof-of-concept study.pdf
+Gariani_et_al-2016-Hepatology.pdf
+HelloWorld.playground
+J. Biol. Chem.-2018-Goodman-7508-16.pdf
+JAIN LAB
+JOB
+MISC
+NADPome Mootha, Goodman, et al 2018.xlsx
+Neural Correlates of Four Broad Temperament Dimensions Testing Predictions for a Novel Construct of Personality.PDF
+PREVIOUS CLASSES
+PYTHON
+Primate auditory prototype in the evolution of the arcuate fasciculus.pdf
+Procurement Department - 127084367 - Draft Requisition_files
+Q-62312.pdf
+QUEST
+RESEARCH
+Relocated Items
+Root-Bernstein2015_ArtsAndCraftsAsAdjunctsToSTEME.pdf
+SCHOOL
+SHI Illustrator PO.pdf
+SHI Requisition.pdf
+STOCKS
+Screen Shot 2020-03-14 at 8.02.40 PM.png
+Screen Shot 2020-03-17 at 12.17.55 AM.png
+Screen Shot 2020-04-04 at 10.09.53 PM.png
+Screen Shot 2020-04-09 at 12.32.35 PM.png
+Screen Shot 2020-04-13 at 8.22.03 PM.png
+Screen Shot 2020-04-13 at 8.22.43 PM.png
+Screen Shot 2020-05-07 at 11.41.06 AM.png
+Screen Shot 2020-05-11 at 4.45.45 PM.png
+Screen Shot 2020-05-14 at 1.48.57 PM.png
+Screen Shot 2020-05-14 at 1.49.42 PM.png
+Screen Shot 2020-06-16 at 7.42.43 PM.png
+Screen Shot 2020-06-17 at 8.55.36 PM.png
+Screen Shot 2020-06-17 at 8.55.44 PM.png
+Screen Shot 2020-06-17 at 9.32.41 PM.png
+Screen Shot 2020-06-24 at 1.33.05 PM.png
+Screen Shot 2020-07-05 at 12.38.13 PM.png
+Screen Shot 2020-07-12 at 2.37.02 AM.png
+Screen Shot 2020-07-12 at 2.39.08 AM.png
+Screen Shot 2020-07-12 at 5.37.05 PM.png
+Screen Shot 2020-07-13 at 10.20.07 PM.png
+Screen Shot 2020-07-13 at 11.14.00 AM.png
+Screen Shot 2020-07-13 at 11.14.17 AM.png
+Screen Shot 2020-07-13 at 11.14.26 AM.png
+Screen Shot 2020-07-22 at 5.33.30 PM.png
+Screen Shot 2020-07-22 at 7.09.15 PM.png
+Screen Shot 2020-07-27 at 9.25.30 AM.png
+Screen Shot 2020-08-07 at 6.39.01 PM.png
+Serine Catabolism Feeds NADH when Respiration Is Impaired.pdf
+TAXES
+TEXTBOOKS II
+The Mathematical Theory of Communication.pdf
+The biochemical pathways of central nervous system neural degeneration in niacin deficiency.pdf
+The second to fourth digit ratio a measure of two hormonally-based temperament dimensions.pdf
+This Week.savedSearch
+UCSF O2 Gas Regulator 14414.pdf
+US Biological Life Sciences Reimbursement.pdf
+VIOLIN
+Xfinity Equipment Return.pdf
+annurev-nutr-071714-034441.pdf
+arts-foster-scientific-success.pdf
+chen2019.pdf
+get-pip.py
+jang2019.pdf
+openstrings.pdf
+s41430-019-0533-7.pdf
+s41580-020-0210-7.pdf
+slack_receipt_1198406120215.pdf
+suspicious-smoke.jpg!Large.jpg
+wsbm.1426.pdf
+~$Career paths.pptx
+~$Folic Acid Background.pptx
+~$ec Barrios Resume.docx
+alec@adsl-99-91-15-225 Desktop % whereis gitignore
+alec@adsl-99-91-15-225 Desktop % mv ~/Desktop/gitignore ~/Desktop/PYTHON/machine-learning-exigence 
+mv: /Users/alec/Desktop/gitignore: No such file or directory
+alec@adsl-99-91-15-225 Desktop % mv ~/Desktop/.gitignore ~/Desktop/PYTHON/machine-learning-exigence
+mv: /Users/alec/Desktop/.gitignore: No such file or directory
+alec@adsl-99-91-15-225 Desktop % cd ~/machine-learning-exigence
+cd: no such file or directory: /Users/alec/machine-learning-exigence
+alec@adsl-99-91-15-225 Desktop % cd ~/Desktop/PYTHON/machine-learning-exigence
+alec@adsl-99-91-15-225 machine-learning-exigence % nano .gitignore
+
+  GNU nano 2.0.6              File: .gitignore                        Modified  
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+*.csv
+*.model
+*.pickle
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
