@@ -9,3 +9,8 @@ __pycache__/
 *.csv
 *.model
 *.pickle
+test/
+train/
+test_dl/
+train_dl/
+*.zip
